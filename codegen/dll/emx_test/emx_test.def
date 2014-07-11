@@ -1,0 +1,13 @@
+DLL {
+	global:
+		emxCreate_real_T;
+		emxCreateWrapper_real_T;
+		emxCreateND_real_T;
+		emxCreateWrapperND_real_T;
+		emxDestroyArray_real_T;
+		emx_test;
+		emx_test_initialize;
+		emx_test_terminate;
+	local:
+		*;
+};
